@@ -19,9 +19,5 @@ spring:
         - id: schools
           uri: http://localhost:8070
           predicates:
-            - Path=/api/v1/schools/**
+            - Path=/api/v1/courses/**
 
-management:
-  tracing:
-    sampling:
-      probability: 1.0

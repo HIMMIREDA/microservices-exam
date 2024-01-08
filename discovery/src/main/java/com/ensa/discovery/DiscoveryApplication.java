@@ -1,4 +1,4 @@
-package com.alibou.discovery;
+package com.ensa.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

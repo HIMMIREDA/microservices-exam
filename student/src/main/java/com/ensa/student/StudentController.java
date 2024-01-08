@@ -1,4 +1,4 @@
-package com.alibou.student;
+package com.ensa.student;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -27,10 +27,10 @@ public class StudentController {
         return ResponseEntity.ok(service.findAllStudents());
     }
 
-    @GetMapping("/school/{school-id}")
+    @GetMapping("/course/{courseId}")
     public ResponseEntity<List<Student>> findAllStudents(
-            @PathVariable("school-id") Integer schoolId
+            @PathVariable("courseId") String courseId
     ) {
-        return ResponseEntity.ok(service.findAllStudentsBySchool(schoolId));
+        return ResponseEntity.ok(service.findAllStudentsByCourse(courseId));
     }
 }

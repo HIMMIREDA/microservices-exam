@@ -1,4 +1,4 @@
-package com.alibou.student;
+package com.ensa.student;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

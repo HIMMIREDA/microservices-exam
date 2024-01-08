@@ -1,10 +1,10 @@
-package com.alibou.school;
+package com.ensa.school;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SchoolApplicationTests {
+class CourseApplicationTests {
 
 	@Test
 	void contextLoads() {

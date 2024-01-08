@@ -1,4 +1,4 @@
-package com.alibou.school;
+package com.ensa.school;
 
 import lombok.*;
 
@@ -9,7 +9,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class FullSchoolResponse {
+public class FullCourseResponse {
 
     private String name;
     private String email;
